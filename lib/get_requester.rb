@@ -11,6 +11,8 @@ class GetRequester
       reponse = Net::HTTP.get_response(uri)
       response.body
     end
-end 
+ 
 
 JSON.parse(response.body)
+
+end
