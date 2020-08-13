@@ -12,3 +12,5 @@ class GetRequester
       response.body
     end
 end 
+
+JSON.parse(response.body)
