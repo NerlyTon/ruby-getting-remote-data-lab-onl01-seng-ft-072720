@@ -19,6 +19,7 @@ class GetRequester
   response.collect do |response|
     response["hash"]  
     end
+  end
     
     
  end
