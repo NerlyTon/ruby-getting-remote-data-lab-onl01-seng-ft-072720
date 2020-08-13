@@ -13,4 +13,5 @@ class GetRequester
     end
  end
  
- 
+ request = GetRequester.new.get_response_body
+puts request
